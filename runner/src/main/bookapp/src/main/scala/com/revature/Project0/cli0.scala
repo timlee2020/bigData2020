@@ -6,14 +6,7 @@ import scala.io.StdIn
 
 class Cli {
 
-  /** commandArgPattern is a regular expression (regex) that will help us
-    * extract the command and argument from user input on the command line
-    *
-    * Regex is a tool used for pattern matching strings.  Lots of languages and other tools
-    * support regex.  It's good to learn at least the basic, but you can also just use this
-    * code for your project if you like.
-    */
-  val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
+  
 
   /** Prints a greeting to the user
     */
@@ -31,13 +24,11 @@ class Cli {
 def menu(): Unit = {
     printWelcome()
     var continueMenuLoop = true
-    while (continueMenuLoop) { //may have to make a DO while loop
+    while (continueMenuLoop) { 
       printOptions()
-      // take user input using StdIn.readLine
-      // readLine is *blocking* which means that it pauses program execution while it waits for input
-      // this is fine for us, but we do want to take note.
+      
       val input = StdIn.readLine()
-      // Here's an example using our regex above, feel free to just follow along with similar commands and args
+      
       input match {
         case commandArgPattern(cmd, arg)
             if cmd.equalsIgnoreCase("legs") => {

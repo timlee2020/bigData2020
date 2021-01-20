@@ -4992,3 +4992,25 @@ INFO  compiling root (1 scala source)
 INFO  time: compiled root in 0.66s
 Jan 20, 2021 9:56:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 2.54s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.86s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 2.88s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.31s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.25s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.88s
+Jan 20, 2021 10:00:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18718
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.83s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.1s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.18s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.14s

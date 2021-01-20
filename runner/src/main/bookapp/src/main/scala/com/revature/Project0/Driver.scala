@@ -12,10 +12,10 @@ object Driver {
 
     
     def main(args: Array[String]) : Unit = {
-       //getConnection teake URL username and pword
+       
 
        val conn = ConnectionUtil.getConnection()
-        //use a prepped statemnt to try to get tracks
+        
         
     
         val demoStatement = conn.prepareStatement("select * from workouts where body_part = 'Arms';")
