@@ -5014,3 +5014,7 @@ INFO  compiling root (2 scala sources)
 INFO  time: compiled root in 0.18s
 INFO  compiling root (2 scala sources)
 INFO  time: compiled root in 0.14s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.75s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.91s

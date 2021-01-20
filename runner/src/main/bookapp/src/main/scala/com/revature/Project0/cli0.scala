@@ -7,6 +7,7 @@ import scala.io.StdIn
 class Cli {
 
   
+  val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
 
   /** Prints a greeting to the user
     */
