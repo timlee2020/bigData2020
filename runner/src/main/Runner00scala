@@ -1,0 +1,8 @@
+package main
+
+
+object Runner extends App{
+
+    val cli = new Cli()
+    cli.menu()
+}

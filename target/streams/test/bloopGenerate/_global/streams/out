@@ -1,0 +1,4 @@
+[debug] [bigdata2020-test] Classpath dependencies List()
+[debug] [bigdata2020-test] Dependencies from configurations List(bigdata2020)
+[debug] Bloop wrote the configuration of project 'bigdata2020-test' to '/Users/DocLee/bigData2020/.bloop/bigdata2020-test.json'
+[success] Generated .bloop/bigdata2020-test.json

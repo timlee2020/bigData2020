@@ -1,0 +1,6 @@
+here is some text
+we going to use it 
+while we explore openining files
+/Users/DocLee/bigData2020/test.txt
+
+ok but what else
